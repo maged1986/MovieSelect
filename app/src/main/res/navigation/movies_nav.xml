@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/movies_nav.xml"
+    app:startDestination="@id/popularMoviesFragment">
+
+    <fragment
+        android:id="@+id/popularMoviesFragment"
+        android:name="com.megednan.movieselect.ui.PopularMoviesFragment"
+        android:label="popular_movies_fragment"
+        tools:layout="@layout/popular_movies_fragment" >
+        <action
+            android:id="@+id/action_popularMoviesFragment_to_moviesDetailsFragment"
+            app:destination="@id/moviesDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/moviesDetailsFragment"
+        android:name="com.megednan.movieselect.ui.MoviesDetailsFragment"
+        android:label="MoviesDetailsFragment" >
+        <action
+            android:id="@+id/action_moviesDetailsFragment_to_videoFragment"
+            app:destination="@id/videoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/videoFragment"
+        android:name="com.megednan.movieselect.ui.VideoFragment"
+        android:label="fragment_video"
+        tools:layout="@layout/fragment_video" >
+        <argument
+            android:name="videoLink"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/nowPlayingFragment"
+        android:name="com.megednan.movieselect.ui.NowPlayingFragment"
+        android:label="NowPlayingFragment" >
+        <action
+            android:id="@+id/action_nowPlayingFragment_to_moviesDetailsFragment"
+            app:destination="@id/moviesDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/topRatingFragment"
+        android:name="com.megednan.movieselect.ui.TopRatingFragment"
+        android:label="TopRatingFragment" >
+        <action
+            android:id="@+id/action_topRatingFragment_to_moviesDetailsFragment"
+            app:destination="@id/moviesDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/favoriteFragment"
+        android:name="com.megednan.movieselect.ui.FavoriteFragment"
+        android:label="favorite_fragment"
+        tools:layout="@layout/favorite_fragment" >
+        <action
+            android:id="@+id/action_favoriteFragment_to_moviesDetailsFragment"
+            app:destination="@id/moviesDetailsFragment" />
+    </fragment>
+</navigation>

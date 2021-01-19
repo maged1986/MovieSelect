@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Movie Select</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="popularMoviesFragment">Popular Movies</string>
+    <string name="nowPlayingFragment">Now Playing</string>
+    <string name="topRatingFragment">Top Rating</string>
+    <string name="favoriteFragment">Favorite Movies</string>
+</resources>

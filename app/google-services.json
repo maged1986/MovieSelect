@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "658761284989",
+    "project_id": "movieselect-6383f",
+    "storage_bucket": "movieselect-6383f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:658761284989:android:48213f965df74a54b22014",
+        "android_client_info": {
+          "package_name": "com.megednan.movieselect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "658761284989-oc5bkhp18fjdok9j02gt4m5cpgkb9tve.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1i_tTXulL6k9-GHdtWq7hCPmqoU8QmOE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "658761284989-oc5bkhp18fjdok9j02gt4m5cpgkb9tve.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

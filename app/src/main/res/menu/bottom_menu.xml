@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/popularMoviesFragment"
+        android:icon="@drawable/ic_popular"
+        android:title="@string/popularMoviesFragment" />
+    <item
+        android:id="@+id/nowPlayingFragment"
+        android:icon="@drawable/ic_now_playing"
+        android:title="@string/nowPlayingFragment" />
+    <item
+        android:id="@+id/topRatingFragment"
+        android:icon="@drawable/ic_rating"
+        android:title="@string/topRatingFragment" />
+
+</menu>
