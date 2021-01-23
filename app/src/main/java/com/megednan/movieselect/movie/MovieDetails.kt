@@ -1,11 +1,8 @@
 package com.megednan.movieselect.model.movie
 
 
-import androidx.room.Entity
-import androidx.room.PrimaryKey
 import com.google.gson.annotations.SerializedName
 import java.io.Serializable
-@Entity(tableName = "movies")
 data class MovieDetails(
     val adult: Boolean,
     @SerializedName("backdrop_path")
@@ -16,7 +13,6 @@ data class MovieDetails(
     val credits: Credits,
     val genres: List<Genre>,
     val homepage: String,
-    @PrimaryKey(autoGenerate = true)
     val id: Int,
     @SerializedName("imdb_id")
     val imdbId: String,
